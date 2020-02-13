@@ -1,0 +1,83 @@
+﻿#top {
+	top:0;
+	height:3em; 
+	vertical-align:middle;
+	background-color: black;
+	width:100%;
+}
+
+
+#content {
+	width:auto;
+	display:inline-block;
+	vertical-align:top;
+}
+
+#footer {
+	height:3em; 
+	vertical-align:middle;
+	background-color: #ddd;
+	width:100%;
+	position: fixed;
+	left: 0;
+    bottom: 0;
+	text-align: center;
+}
+
+#left {
+	width:20em;
+	background-color:#aaa;
+	display:inline-block;
+	height:auto;
+	min-height:10em;
+}
+
+#leftUser{
+	width:20em;
+	background-color:#aaa;
+	display:inline-block;
+	height:auto;
+	min-height:10em;
+	
+}
+
+
+
+/* Navigation Bar */
+
+div#navigation {
+  overflow: hidden;
+
+} 
+ 
+div#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+div#navigation li {
+  float: left;
+}
+
+div#navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#navigation .li .a:hover:not(.active) {
+  background-color: #111;
+}
+
+div#navigation .active {
+  background-color: #4CAF50;
+}
+
+
+
+
